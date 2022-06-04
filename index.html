@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--font awesome cdn link-->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!--custom css file link-->
+    <link rel="stylesheet" href="style.css">
+    
+    <title>ToDo List App</title>
+</head>
+<body>
+
+    <div class="container">
+        <h1>
+            Todo App
+        </h1>
+        <div class="inputBox">
+            <input type="text" placeholder="Add your new todo">
+            <button><i class="fas fa-plus"></i></button>
+        </div>
+
+        <ul class="toDoList">
+            <!-- data comes from local storage-->
+        </ul>
+        <footer>
+            <span>You have <span class="pendingNumb"></span> pending tasks</span>
+            <button>Clear all</button>
+        </footer>
+    </div>
+    
+
+    <!--custom javascript file link-->
+    <script src="script.js"></script>
+</body>
+</html>
